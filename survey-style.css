@@ -1,22 +1,14 @@
-/*TODO  
-	- Style Background 	
-	- Style Buttons (Radio, Checkboxes, Submit) 
-	- Style Fieldset
-	- Style Text Fields
-	- Style Fonts
-*/
-
 body{
 	text-align: center;
-	background-color: #700cbc;
-	color: #7fbd32;
+	background-color: #09adad;
+	color: #ffbd39;
 	font-weight: bold;
 	font-family: Ariel, sans-serif;
 }
 
 h1{
 	text-align: center;
-	color: #7fbd32;
+	color: #ffbd39;
 }
 
 fieldset{
@@ -24,7 +16,7 @@ fieldset{
 	margin: auto;
 	display: inline-block;
 	text-align: center;	
-	border-color: #FB8604;
+	border-color: #Ff3939;
 	border-radius: 10px;
 	border-width: 5px;
 	box-shadow: 10px 10px 10px rgba(0,0,0,0.8), 6px 6px 6px rgba(0,0,0,0.23);
