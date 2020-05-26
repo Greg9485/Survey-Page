@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="survey-style.css">
+
+
+<title>
+Boat Survey
+</title>
+</head>
+
+<body>
+<h1 id="title">
+Circumnavigation Survey
+</h1>
+<p id="description">What Boat Would You Circumnavigate the World In?</p>
+
+<form id="survey-form">
+<fieldset>
+<br><label id="name-label">Name</label>
+<br><input type="text" required id="name" placeholder="Name" class="textfields">
+
+<br><label id="email-label">Email Address</label>
+<br><input type="email" required id="email" placeholder="Email" class="textfields">
+
+<br><label id="number-label">Age</label>
+<br><input type="number" min="0" max="120" required id="number" placeholder="Age" class="textfields">
+
+<p id="experience">How many years boating experience do you have?</p>
+<label class="radios">
+	<input type="radio" name="experience" id="zero" value="noob" class="radios">0-1</label>
+<br><label class="radios">
+	<input type="radio" name="experience" id="one-to-five" value="intermediate" class="radios">1-5</label>
+<br><label class="radios">
+	<input type="radio" name="experience" id="five-plus" value="sailor" class="radios">5+</label>
+
+<br>
+<p>What types of boats have you captained?</p>
+<label for="sailboat" class="checkboxes"><input id="sailboat" type="checkbox" name="sail" value="sail" class="checkboxes"> Sailboats</label>
+<br><label for="motorboat" class="checkboxes"><input id="motorboat" type="checkbox" name="motor" value="motor" class="checkboxes"> Motorboats</label>
+<br><label for="yacht" class="checkboxes"><input id="yacht" type="checkbox" name="yacht" value="yacht" class="checkboxes"> Yachts</label>
+<br><label for="pontoon" class="checkboxes"><input id="pontoon" type="checkbox" name="pontoon" value="pontoon" class="checkboxes"> Pontoon</label>
+<br><label for="other" class="checkboxes"><input id="other" type="checkbox" name="other" value="other" class="checkboxes"> Other</label>
+<br><label for="none" class="checkboxes"><input id="none" type="checkbox" name="none" value="none" class="checkboxes"> Never been on a boat before</label>
+
+<br>
+<p>Have you ever been interested in circumnavigating the world?</p>
+<select id="dropdown" class="textfields">
+	<option value="yes">Yes</option>
+	<option value="no">No</option>
+	<option value="idk">Never really thought about it</option>
+</select>
+
+<p><label id="additional-comments">Additional Comments...</label></p>
+<textarea rows="5" columns="50" input type="text" id="comments" name="comments" class="textfields"></textarea>
+<br>
+<br>
+<button type="submit" id="submit" class="textfields">Submit</button>
+
+</fieldset>
+</form>
+
+
+</body>
+
+<footer>
+
+</footer>
+</html>
