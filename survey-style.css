@@ -1,14 +1,32 @@
 body{
 	text-align: center;
-	background-color: #09adad;
-	color: #ffbd39;
+	color: #E1E4EA;
 	font-weight: bold;
 	font-family: Ariel, sans-serif;
 }
 
-h1{
+.bkgrndimage{
+	background-image: url("map1.jpg");
+	background-size: 1000px 1000px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-blend-mode: lighten;
+	background-color: black;
+}
+
+
+h1{	
+	margin: auto;
+	width: 40%;
+	height: 25%;
 	text-align: center;
-	color: #ffbd39;
+	color: #E1E4EA;
+	background-color: #89231e;
+	border-style: ridge;
+	border-radius: 10px;
+	border-color: rgba(87, 128, 168, 0.8);
+	border-width: 5px;
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.8), 6px 6px 6px rgba(0,0,0,0.23);
 }
 
 fieldset{
@@ -16,25 +34,91 @@ fieldset{
 	margin: auto;
 	display: inline-block;
 	text-align: center;	
-	border-color: #Ff3939;
+	background-color: rgba(87, 128, 168, 0.8);
+	border-color: rgba(87, 128, 168, 0.8);
 	border-radius: 10px;
 	border-width: 5px;
+	border-style: ridge;
 	box-shadow: 10px 10px 10px rgba(0,0,0,0.8), 6px 6px 6px rgba(0,0,0,0.23);
+	padding: 5px
+}
+
+#name-label{
+	margin: auto;
+	padding: 5px;
+	padding-right: 250px;
+}
+
+
+#email-label{
+	margin: auto;
+	padding: 5px;
+	padding-right: 185px;
+}
+
+#number-label{
+	margin: auto;
+	padding: 5px;
+	padding-right: 260px;
 }
 
 .textfields{
 	border-radius: 5px;
 	font-family: Ariel, sans-serif;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 20px;
+	width: 50%;
 }
 
 .checkboxes{
 	float: left;
 	margin: auto;
-	padding-left: 150px;
+	margin-right: 5px; /*Space between button and text*/
+	padding-left: 75px; /*Centers buttons*/
 }
 
 .radios{
 	float: left;
 	margin: auto;
-	padding-left: 150px;
+	margin-right: 5px; /*Space between button and text*/
+	padding-left: 75px; /*Centers buttons*/
+}
+
+
+#description{
+	background-color: rgba(87, 128, 168, 0.8);	
+	border-style: ridge;
+	border-width: 1px;
+	border-color: rgba(87, 128, 168, 0.8);
+	border-radius: 10%;
+	border-width: 2px;
+	width: 40%;
+	height: 25%;
+	margin: auto;
+	padding: 5px;
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.8), 6px 6px 6px rgba(0,0,0,0.23);
+}
+
+#title{
+	position: center;
+	background-color: rgba(87, 128, 168, 0.8);
+	padding: 10px;
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.8), 6px 6px 6px rgba(0,0,0,0.23);
+	border-radius: 10px;
+}
+
+#submit{
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.8), 3px 3px 3px rgba(0,0,0,0.23);
+}
+
+#foot{
+	position: center;
+	background-color: rgba(87, 128, 168, 0.8);
+	padding: 5px;
+	margin: auto;
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.8), 6px 6px 6px rgba(0,0,0,0.23);
+	width: 70%;
+	border-radius: 10px;
+	color: #E1E4EA;
 }
